@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Makinas";
+  src: url("Makinas-4-Flat.otf") format("opentype");
+}
+
 .first_shadow {
 	text-shadow: 1px 0px 1px #000000;
 }
