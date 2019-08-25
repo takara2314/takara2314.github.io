@@ -3,6 +3,30 @@
   src: url("font/Makinas-4-Square.otf") format("opentype");
 }
 
+.header {
+	background-color: #F0F0F0;
+	padding: 0px;
+	height: 50px;
+}
+
+.header_logo {
+	float: left;
+	padding-left: 20px;
+	font-family: Makinas;
+}
+
+.header_list {
+	float: right;
+}
+
+.header_list ul li {
+	float: left;
+	padding-right: 20px;
+	list-style: none;
+	text-decoration: none;
+	font-family: Makinas;
+}
+
 header {
 	text-align: right;
 	background-color: #F0F0F0;
