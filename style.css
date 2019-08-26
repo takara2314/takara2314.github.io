@@ -12,14 +12,15 @@ video {
 }
 
 #video-background {
-	position: fixed;
-	left: 0;
-	top: 0;
+	position: absolute;
+	left: 0%;
+	top: 0%;
 	min-width: 100%;
 	min-height: 100%;
 	width: auto;
 	height: auto;
 	z-index: -999;
+	padding-top: 56.25%;
 }
 
 .header {
