@@ -7,6 +7,10 @@
 	margin: 0px;
 }
 
+video {
+	text-align: center;
+}
+
 #video-background {
 	position: fixed;
 	left: 0;
