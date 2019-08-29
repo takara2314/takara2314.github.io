@@ -1,125 +1,70 @@
+@import url("https://fonts.googleapis.com/css?family=Kantumruy:700&display=swap&text=0123456789");
+@import url('https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c:500&display=swap');
+
 @font-face {
-  font-family: "Makinas";
-  src: url("font/Makinas-4-Square.otf") format("opentype");
-}
-
-* {
-	margin: 0px;
-}
-
-video {
-	text-align: center;
-}
-
-#video-background {
-	position: absolute;
-	left: 0%;
-	top: 0%;
-	min-width: 100%;
-	min-height: 100%;
-	width: auto;
-	height: auto;
-	z-index: -999;
-}
-
-.header {
-	background-color: #F0F0F0;
-	height: 3em;
-}
-
-.header a {
-	text-decoration: none;
-	color: #000000;
 	font-family: Makinas;
+	src: url("font/Makinas-4-Square.otf") format("opentype");
 }
 
-.header_logo {
-	float: left;
-	height: 3em;
-	width: 10em;
-	padding-left: 8px;
-	text-align: center;
-	display: table-cell;
-	font-size: 25px;
-	font-weight: bold;
+::selection {
+	background-color: rgba(0, 190, 240, 0.5);
+	color: #000000;
 }
 
-.header_list {
-	float: right;
-	padding: 13px 30px;
-	font-size: 18px
-}
-
-.header_list ul li {
-	float: left;
-	padding-left: 25px;
-	list-style: none;
-}
-
-h1 {
+footer::selection {
 	color: #FFFFFF;
 }
 
-@media (max-width: 1000px){
-	h1 {
-		color: #000000;
-	}
+body {
+	margin: 0;
+	background-color: #F5F5F5;
+	font-family: Kantumruy, "Lexend Deca", Meiryo, sans-serif;
+	color: #000000;
 }
 
-/*header {
-	text-align: right;
-	background-color: #F0F0F0;
+header {
+	height: 10vh;
+	width: 100vw;
+	background-color: #FFFFFF;
 }
 
-header p a {
-	position: absolute;
-	left: 20px;
-	top: 20px;
-	text-decoration: none;
-}
-
-nav ul li {
-	display: inline-block;
-	margin-right: 25px;
-}
-
-nav ul li a{
-	text-decoration: none;
-}
-
-#oldnav {
-	list-style: none;
-	overflow: hidden;
-	background-color: #F0F0F0;
-	width: 100%;
-}
-
-#oldnav li {
-	width: 256px;
-	text-align: center;
-	background-color: #F0F0F0;
-	float: left;
-}
-
-#oldnav li a {
+header a {
 	text-decoration: none;
 	color: #000000;
-	font-family: "Makinas";
-	font-weight: bold;
-} */
-
-.first_shadow {
-	text-shadow: 1px 0px 1px #000000;
 }
 
-.second_shadow {
-	text-shadow: 1px 0px 1px #FFFFFF;
+header h1 {
+	margin: 0;
+	float: left;
+	font-family: Makinas, Meiryo, sans-serif;
+	color: #000000;
 }
 
-.first_button {
-	display: inline-block;
-	padding: 7px 20px;
-	border-radius: 25px;
-	text-decoration: none;
-	background: #F0F0F0;
+header ul {
+	margin: 0;
+	float: right;
+}
+
+header ul li {
+	list-style: none;
+	float: left;
+	font-size: 20px;
+	font-family: Kantumruy, "Lexend Deca", "M PLUS Rounded 1c", Meiryo, sans-serif;
+}
+
+footer {
+	height: 10vh;
+	width: 100vw;
+	background-color: #000080;
+	color: #FFFFFF;
+}
+
+small {
+	font-size: 18px;
+}
+
+.content {
+	height: 80vh;
+	width: 100vw;
 }
